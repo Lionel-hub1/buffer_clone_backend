@@ -67,6 +67,8 @@ TEMPLATES = [
     },
 ]
 
+AUTH_USER_MODEL = 'api.User'
+
 WSGI_APPLICATION = 'buffer_clone_backend.wsgi.application'
 
 
